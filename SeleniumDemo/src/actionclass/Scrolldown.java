@@ -1,10 +1,15 @@
 package actionclass;
 
+import java.awt.Desktop.Action;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.interactions.*;
+
+import io.netty.handler.codec.AsciiHeadersEncoder.NewlineType;
 
 public class Scrolldown {
 
@@ -26,6 +31,9 @@ public class Scrolldown {
 		WebElement password = driver.findElement(By.name("pswrd"));
 		password.click();
 		password.sendKeys("gautam");
+		
+		
+		
 		
 	}
 

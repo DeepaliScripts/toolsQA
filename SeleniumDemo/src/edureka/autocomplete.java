@@ -11,12 +11,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.safari.SafariDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
 
 public class autocomplete {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new SafariDriver();
 		driver.get("https://www.makemytrip.com/flights/");
 		driver.manage().window().maximize();

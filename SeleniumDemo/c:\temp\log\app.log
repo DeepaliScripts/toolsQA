@@ -1,0 +1,13 @@
+14:52:10.446 [main]INFO  Loggerdemo - for info only
+14:52:10.447 [main]DEBUG Loggerdemo - for debug only
+14:52:10.447 [main]ERROR Loggerdemo - for error only
+14:52:10.447 [main]WARN  Loggerdemo - for warning only
+15:06:31.431 [main]INFO  Loggerdemo - for info only
+15:06:31.432 [main]DEBUG Loggerdemo - for debug only
+15:06:31.432 [main]ERROR Loggerdemo - for error only
+15:06:31.432 [main]WARN  Loggerdemo - for warning only
+15:14:29.387 [main]ERROR Loggerdemo - for error only
+15:14:50.864 [main]INFO  Loggerdemo - for info only
+15:14:50.865 [main]DEBUG Loggerdemo - for debug only
+15:14:50.865 [main]ERROR Loggerdemo - for error only
+15:14:50.865 [main]WARN  Loggerdemo - for warning only
