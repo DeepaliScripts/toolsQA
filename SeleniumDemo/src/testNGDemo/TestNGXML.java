@@ -10,7 +10,7 @@ public class TestNGXML {
 		System.out.println("test case 1");
 	}
 	
-	@Test (priority = -3)
+	@Test (priority = -2)
 	public void test2() {
 		System.out.println("test case 2");
 	}

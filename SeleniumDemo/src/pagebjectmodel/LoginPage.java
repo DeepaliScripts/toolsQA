@@ -11,6 +11,7 @@ public class LoginPage {
 		driver = d;
 		
 	}
+	
 	By username = By.id("user-name");
 	By password = By.id("password");
 	By loginButton = By.id("login-button");

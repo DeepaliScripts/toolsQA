@@ -17,13 +17,14 @@ public class HardSoftAssertions {
 		TakesScreenshot ts = (TakesScreenshot)driver; 
 		//tells Java to treat the driver reference variable as if it were an instance of the TakesScreenshot interface
 		
-		//SoftAssert soft = new SoftAssert();
+		SoftAssert soft = new SoftAssert();
 		
-		//soft.assertTrue(driver.getTitle().equals("omayo"));
+		soft.assertTrue(driver.getTitle().equals("omayo"));
 
-		Assert.assertTrue(driver.getTitle().equals("xyz"));
+		//Assert.assertTrue(driver.getTitle().equals("xyz"));
 		
-		System.out.println("all good");
+		 System.out.println("all good");
+		 
 
 	}
 

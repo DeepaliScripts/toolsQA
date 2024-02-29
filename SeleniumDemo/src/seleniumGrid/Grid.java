@@ -13,6 +13,9 @@ public class Grid {
 		DesiredCapabilities dc = new DesiredCapabilities();
 		
 		dc.setBrowserName("chrome");
+		dc.setCapability("BrowserVersion", "79.0");
+		
+		
 		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444"), dc);
 		
 		driver.get("https://the-internet.herokuapp.com/");

@@ -133,5 +133,6 @@
 	<classpathentry kind="lib" path="/Users/deepaligautam/Desktop/log4j-core-2.17.2.jar"/>
 	<classpathentry kind="lib" path="/Users/deepaligautam/Desktop/log4j-api-2.17.2.jar"/>
 	<classpathentry kind="lib" path="/Users/deepaligautam/Desktop/slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/Users/deepaligautam/Desktop/mysql-connector-java-5.1.18-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -12,6 +12,7 @@ public class Loggerdemo {
 		log.debug("for debug only");
 		log.error("for error only");
 		log.warn("for warning only");
+		log.trace("nothing but love");
 	}
 
 }

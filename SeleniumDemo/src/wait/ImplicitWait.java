@@ -13,6 +13,7 @@ import com.google.common.base.Stopwatch;
 public class ImplicitWait {
 
 	public static void main(String[] args) {
+		
 		WebDriver driver = new SafariDriver();
 		
 		driver.manage().window().maximize();

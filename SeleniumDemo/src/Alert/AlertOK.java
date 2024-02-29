@@ -17,12 +17,14 @@ public class AlertOK {
 		//driver.findElement(By.id("confirm")).click();
 		driver.findElement(By.id("prompt")).click();
 		Alert alt = driver.switchTo().alert();
-		Thread.sleep(2000);
-		alt.sendKeys("deepali");
-		Thread.sleep(2000);
-		alt.accept();
-		Thread.sleep(2000);
-		driver.quit();
+//		Thread.sleep(2000);
+//		alt.sendKeys("deepali");
+//		Thread.sleep(2000);
+//		alt.accept();
+//		Thread.sleep(2000);
+//		driver.quit();
+//		
+		
 		
 		
 

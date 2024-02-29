@@ -3,13 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGDemo.TestNGParameters">
+      <class name="extent.BasicExtentReport">
         <methods>
-          <include name="sub"/>
-          <include name="add"/>
-          <include name="mul"/>
+          <include name="verifyemail"/>
+          <include name="verifyusername"/>
+          <include name="LaunchBrowser"/>
+          <include name="tearDown"/>
+          <include name="gettestresult"/>
+          <include name="verifyLogo"/>
+          <include name="verifyTitle"/>
+          <include name="startReport"/>
         </methods>
-      </class> <!-- testNGDemo.TestNGParameters -->
+      </class> <!-- extent.BasicExtentReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

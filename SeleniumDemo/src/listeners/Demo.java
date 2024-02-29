@@ -16,7 +16,9 @@ public class Demo {
 	driver.manage().window().maximize();
 	driver.get("https://tutorialsninja.com/demo/");
 	
-	Assert.assertEquals(driver.getTitle(), "Your 1Store");
+	Assert.assertEquals(driver.getTitle(), "Your Store");
+	
+	driver.quit();
 
 }
 }
