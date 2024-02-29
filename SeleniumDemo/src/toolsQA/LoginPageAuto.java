@@ -27,7 +27,7 @@ public class LoginPageAuto {
 		
 		String firstNameString = "deepali"+add;
 		String firstLastString = "gautam"+add;
-		String emailRand = "deepaligautam.er"+add+"@gmail.com";
+		String emailRand = "deepaligautam.er"+add+"  @gmail.com";
 		
 		long myNumberRandomlyGenerated = Math.round(Math.ceil((Math.random())*100000000));
 		String newNum = "123"+myNumberRandomlyGenerated;
